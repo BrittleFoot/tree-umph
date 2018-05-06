@@ -1,0 +1,17 @@
+{
+  "name": "treeumph",
+  "version": "1.0.0",
+  "description": "tree-umph front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "treeumph"
+  ],
+  "author": "i_o",
+  "license": "MIT",
+  "devDependencies": {
+    "codemirror": "^5.36.0"
+  }
+}

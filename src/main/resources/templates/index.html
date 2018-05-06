@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Request-er</title>
+
+    <link rel="stylesheet" href="libs/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="libs/codemirror/lib/codemirror.js"></script>
+    <script src="libs/codemirror/mode/javascript/javascript.js"></script>
+    <script src="libs/codemirror/mode/python/python.js"></script>
+    <script src="libs/codemirror/mode/groovy/groovy.js"></script>
+
+</head>
+<body>
+
+    <div class='file-form'>
+        <label class="fileContainer ptr">
+            <a>Choose file to load process...</a>
+            <input type="file" id='fileinput' accept=".json">
+        </label>
+
+        <input class="ptr" type='button' id='btnLoad' value='load' onclick='cb_load_process()'>
+        <input class="ptr" type='button' id='btnSave' value='save' onclick='cb_save_process()'>
+    </div>
+
+    <br/>
+
+    <div class='server-form'> 
+        <a>or download process from server by name </a>
+        <input id=download-input>
+        <input class="ptr" type='button' id='btn_download' value='download' onclick='cb_download()'>
+        <input class="ptr" type='button' id='btn_upload' value='upload' onclick='cb_upload()'>
+    </div>
+
+    <div class='run_section'>
+        <input type='button' class="ptr" value='run' onclick='cb_run()'>
+    </div>
+
+    <div id='process' class='process'></div>
+
+
+    <div class='run_section'>
+        <input type='button' class="ptr" value='run' onclick='cb_run()'>
+    </div>
+
+
+    <script src="utils.js"></script>
+    <script src="function_element.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

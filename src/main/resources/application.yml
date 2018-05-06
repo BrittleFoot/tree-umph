@@ -1,0 +1,14 @@
+
+spring.jackson.fail-on-unknown-properties: false
+
+spring.data.mongodb:
+  host: localhost
+  port: 27017
+  database: processdb
+
+---
+spring.profiles: test
+
+spring.data.mongodb:
+  database: processdb-test
+
