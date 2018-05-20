@@ -1,4 +1,4 @@
-package com.github.brittlefoot.treeumph.servlet.services;
+package com.github.brittlefoot.treeumph.services;
 
 import com.github.brittlefoot.treeumph.persistence.ProcessRepository;
 import com.github.brittlefoot.treeumph.process.Process;
@@ -6,8 +6,8 @@ import com.github.brittlefoot.treeumph.requests.ProcessBuilder;
 import com.github.brittlefoot.treeumph.requests.ScriptedProcessView;
 import com.github.brittlefoot.treeumph.requests.TreeStage;
 import com.github.brittlefoot.treeumph.requests.errors.ProcessBuildException;
-import com.github.brittlefoot.treeumph.servlet.errors.NameAlreadyBoundError;
-import com.github.brittlefoot.treeumph.servlet.errors.NameNotFoundError;
+import com.github.brittlefoot.treeumph.errors.NameAlreadyBoundError;
+import com.github.brittlefoot.treeumph.errors.NameNotFoundError;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

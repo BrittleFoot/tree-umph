@@ -1,11 +1,11 @@
-package com.github.brittlefoot.treeumph.servlet.controller;
+package com.github.brittlefoot.treeumph.controller;
 
 import com.github.brittlefoot.treeumph.process.Process;
 import com.github.brittlefoot.treeumph.requests.ScriptedProcessView;
 import com.github.brittlefoot.treeumph.requests.TreeStage;
 import com.github.brittlefoot.treeumph.requests.ViewUtils;
 import com.github.brittlefoot.treeumph.requests.errors.ProcessException;
-import com.github.brittlefoot.treeumph.servlet.services.ProcessService;
+import com.github.brittlefoot.treeumph.services.ProcessService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

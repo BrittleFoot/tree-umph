@@ -1,4 +1,6 @@
 {
+  // todo: download frontend deps during `mvn package`
+
   "name": "treeumph",
   "version": "1.0.0",
   "description": "tree-umph front-end",
@@ -9,9 +11,14 @@
   "keywords": [
     "treeumph"
   ],
-  "author": "i_o",
+  "author": "brittlefoot",
+  "homepage": "https://github.com/brittlefoot/tree-umph#readme",
   "license": "MIT",
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brittlefoot/tree-umph"
+  },
+  "dependencies": {
     "codemirror": "^5.36.0"
   }
 }

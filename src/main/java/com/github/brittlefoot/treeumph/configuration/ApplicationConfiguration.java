@@ -9,8 +9,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @ComponentScan({
-        "com.github.brittlefoot.treeumph.servlet.controller",
-        "com.github.brittlefoot.treeumph.servlet.services"})
+        "com.github.brittlefoot.treeumph.controller",
+        "com.github.brittlefoot.treeumph.services"})
 @Import({MongoConfiguration.class})
 @EnableTransactionManagement
 public class ApplicationConfiguration {

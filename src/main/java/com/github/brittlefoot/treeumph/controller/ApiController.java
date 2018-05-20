@@ -1,4 +1,4 @@
-package com.github.brittlefoot.treeumph.servlet.controller;
+package com.github.brittlefoot.treeumph.controller;
 
 
 import com.github.brittlefoot.treeumph.requests.ProcessFunction;

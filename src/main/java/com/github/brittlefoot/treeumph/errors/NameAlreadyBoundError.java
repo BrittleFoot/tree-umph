@@ -1,4 +1,4 @@
-package com.github.brittlefoot.treeumph.servlet.errors;
+package com.github.brittlefoot.treeumph.errors;
 
 
 import org.springframework.http.HttpStatus;

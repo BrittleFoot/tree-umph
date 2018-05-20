@@ -1,4 +1,4 @@
-package com.github.brittlefoot.treeumph.servlet.controller;
+package com.github.brittlefoot.treeumph.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
